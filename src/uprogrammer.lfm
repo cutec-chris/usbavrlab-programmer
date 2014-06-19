@@ -1,0 +1,519 @@
+object fProgrammer: TfProgrammer
+  Left = 292
+  Height = 408
+  Top = 156
+  Width = 347
+  ActiveControl = lbStatus
+  Caption = 'USB AVR Lab Tool Programmer'
+  ClientHeight = 387
+  ClientWidth = 347
+  Color = clWindow
+  Menu = MainMenu1
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  LCLVersion = '1.3'
+  object lType: TLabel
+    Left = 12
+    Height = 13
+    Top = 70
+    Width = 74
+    Anchors = [akLeft, akBottom]
+    Caption = 'Controllertyp'
+    ParentColor = False
+  end
+  object lStatus: TLabel
+    Left = 12
+    Height = 13
+    Top = 31
+    Width = 53
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'Status'
+    ParentColor = False
+  end
+  object pProgress: TPanel
+    Left = 0
+    Height = 248
+    Top = 93
+    Width = 347
+    Anchors = [akLeft, akRight, akBottom]
+    BevelOuter = bvNone
+    ClientHeight = 248
+    ClientWidth = 347
+    TabOrder = 3
+    Visible = False
+    object Image1: TImage
+      Left = 12
+      Height = 16
+      Top = 0
+      Width = 16
+      AutoSize = True
+    end
+    object lStep1: TLabel
+      Left = 32
+      Height = 26
+      Top = 0
+      Width = 309
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'Controller löschen...'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Image2: TImage
+      Left = 12
+      Height = 16
+      Top = 28
+      Width = 16
+      AutoSize = True
+    end
+    object lStep2: TLabel
+      Left = 32
+      Height = 28
+      Top = 28
+      Width = 309
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'Flash programmieren ...'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Image3: TImage
+      Left = 12
+      Height = 16
+      Top = 96
+      Width = 16
+      AutoSize = True
+    end
+    object lStep3: TLabel
+      Left = 32
+      Height = 32
+      Top = 96
+      Width = 309
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'EEPROM programmieren ...'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Image4: TImage
+      Left = 12
+      Height = 16
+      Top = 160
+      Width = 16
+      AutoSize = True
+    end
+    object lStep4: TLabel
+      Left = 32
+      Height = 34
+      Top = 160
+      Width = 309
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'Fuse Bits programmieren ...'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Image5: TImage
+      Left = 12
+      Height = 16
+      Top = 200
+      Width = 16
+      AutoSize = True
+    end
+    object lStep5: TLabel
+      Left = 32
+      Height = 34
+      Top = 200
+      Width = 309
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'LockBits programmieren ...'
+      ParentColor = False
+      WordWrap = True
+    end
+    object iHourglass: TImage
+      Left = 204
+      Height = 16
+      Top = 40
+      Width = 16
+      AutoSize = True
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963E802000089504E47
+        0D0A1A0A0000000D49484452000000100000001008060000001FF3FF61000000
+        0467414D410000AFC837058AE90000001974455874536F667477617265004164
+        6F626520496D616765526561647971C9653C0000027A4944415438CB8D93BB4F
+        536118C63B3238BAB89818B7C6C49538E87FA083838B0C4AA23126C446079178
+        4F0412220D50282D0A5A6919104B0AB44712C45E68855E6929289C5EA5F76AA1
+        A7F79EF3F8F5041A8A62189E7CDFF03EBF7CE7BCF9090008D647454D246D241A
+        129A8421615DC37760115FC7C2ABCBACA6E3123371EF3CFDF6D6198DA4E5645B
+        EFB5134DB5AE600F600C683B11599220E1788394FB1D92AE31C496E5D8D60F22
+        F4B917F474273C8A7618C53730F5F02208C0580778158F5CFB80B84D4E3282A8
+        79183FBF4A10D0BD06ADEEC6BAEA391CF2FBD0F7B4F00071CB29571D605A0D0A
+        6DA6456C696558533EC6B2A4150B9D57409E0DF26C8CDE3E0B69EB69C8EE9E83
+        EAE555C806BA3030AE15D601B52C6C9675B67009A96C058532876285433A57C5
+        5AA4006B300F7FAA043A59C28C3D898139BF6EBF5707D44279F39F286F8E0B90
+        61A6C82292A9603D5A848F144D3F76314485B8FE59FFD4C14E03A016B563A779
+        DA91A1BFD159847E95F9F29C338D412AB8D937EB6B3E3CFF17603FCAA584C11E
+        6460F56721D105F547CD1D0998588A9B9D61063602E89BF1198E0D509AE217D4
+        2B89E06A288B34534574A782596B1C5D931B5B2F549EFF7F82C210534F5AE29C
+        2F51E03751AA72D82DB008A5CBD03A9378F2DEC5B58F3AFEFD13C7F4516ADE9D
+        C676A68C5C89459994AB2C0786DC1DE13CDCDB05B8C829A36888A4CB8D6B54CD
+        BB85E3860816BDBF91D8ADF065D2E501997C15DF6345BE6C0FE5F1D11241C798
+        1DA26E95B0C1050F2585D16C8279238570328F9D1C5961340BE5173F9E7D70E2
+        816C05A2210B7AFA1518797AB3D18583321DD785C380BACE44619A28CCEC29CC
+        BB40146689C20C29D1241A92BACE7F0010FA05AE429104BC0000000049454E44
+        AE426082
+      }
+      Visible = False
+    end
+    object iFailed: TImage
+      Left = 228
+      Height = 16
+      Top = 40
+      Width = 16
+      AutoSize = True
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963CB02000089504E47
+        0D0A1A0A0000000D49484452000000100000001008060000001FF3FF61000000
+        0467414D410000AFC837058AE90000001974455874536F667477617265004164
+        6F626520496D616765526561647971C9653C0000025D4944415438CBA593FB4B
+        536118C7FD5BB61FA204896E8484515098F33277D6DADCA6CEB34C8F5B2C6269
+        8E9D619A418DC55CF843A8A576D5CA5F324D6C945A466AD7A1E5B1F2D24E4D6A
+        6D9EB36BCAB7B960262E237AE1FBCBCBFBF9BC3C0FCF930220E57FB2E66256AF
+        17CE5015E6F7541933A525B949AD867B47AA997152697695C885EB0AE6747AE2
+        2345B1DF1C3684079D88BC1945646408FCDD0ECC1A4AF1AA90609FABC54452C1
+        323C5D4EF10BB73BB034F516D1BE3B88B6DB116D3E871F379BB038DC078FC980
+        516536FF4C9E49AC12CCE8748218ECE6AEB7638971217AF10C7C760BFCB66A84
+        2F581069A011B69E40F8DE0DCC1D25317C689FFBB16C8F202188C1F47CAD198B
+        AEB1F88F21070DEF59238275BA55E14E9208775DC1CBBC0C0C4833E884E00375
+        8409745D45B4B3193E6B25BE16499366A192046FAB81C7528587443A931030E5
+        DA60E47E17A20E0B7CA70DF8D3F12872E0A50AE16F6E84336F47302198248B82
+        A1CE5684EB0D089E2A5B57305FAA82BFA911FDE22D2B82891215E3B5D62064A7
+        C11D57C71F268D320FBE5A13664D46F489D2564A7015CB69462642B0B30D3EAD
+        0CDE52C91A989567832D9020D07E0943E26DE8CDDAB4D2C4D74552C10B0DE19E
+        ABD02070AB35DEB07995F817A8C8052B8BC13231F8B6168C174B976177B768A3
+        60D5208D15E410238A03FCF4611502D75AF1BD9E868754E2B35A016F9D19FCE5
+        164CA8F3D19395CAC76022E9283F95EF279E1CDCCB8E4A76E14BB511DE86F3F1
+        7CAA3A8647395B9761F67738E9320D4A770B07C4E96627B1937990BF9DEB176D
+        E67A73D3989EEC547377E606E15FB7F15FF3131DD2CEB949721BFE0000000049
+        454E44AE426082
+      }
+      Visible = False
+    end
+    object iOK: TImage
+      Left = 252
+      Height = 16
+      Top = 40
+      Width = 16
+      AutoSize = True
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B477261706869630D03000089504E47
+        0D0A1A0A0000000D49484452000000100000001008060000001FF3FF61000000
+        0467414D410000AFC837058AE90000001974455874536F667477617265004164
+        6F626520496D616765526561647971C9653C0000029F4944415438CBA593EB4B
+        53611CC7FD3B76CE766C03096444218284507B1524123B9A0DC5BC2C4BD3DDBD
+        D23663D84C8B32725EC648292DB3D46A734E6DEAD4E6D6943271D95142CCBDE9
+        42B56174B16FE7ECC54C12237AE00B0F0FCFE7F37BAE7100E2FE277F0C14F80E
+        8972A70FEAB33D294CC6E3FD61E988382C7525325267A23EDDBE57B4AB20CF9B
+        4ACB3CC9219D47869B410BFA96BBA2E95C6C4689EB1824BD5448D243D13B0AD8
+        AA74E67852E4EA9C11CED57ED85E5E8369AE321AAEEF58ED43E34C150ED8F891
+        641B9FDE26C8F1A40833DD49EB1CCC4DAC0994A1C25F02CDCC19E8D894B3A9F6
+        9D85FDF53D5C9CAA80D842AE8BAF93C29840E64E32A8C6B2A29539980355DE53
+        504C1742315500F55421DC6B8330789570B092DC9E2348B8421A62828C1131D3
+        196C8635D8840A5F31944FE42C980FE5241B4F3EC6DFB8C0B550640D6DCF1B61
+        9B6B447C3DC9C40447ED091B0F566EA336A081D65BC4AE64008B1FE6A19A28C4
+        D8DA5014FEB1F91D6DCF2EC130518CBE6027044662232690DCA736FA97BB61F4
+        AB50EBD7E2D3D78F51E8FD97B731D8325B0FB52B1B7AF769F4073B20A8F95DD0
+        433137E69BD0BE7019BA4939CCBE6A44BE7D8EC29B3F3761797A0165CE2C6858
+        414BA00EED5E33A82A626B0BA9B70406F9401AEC2B77513D2187DA7D1275D3E5
+        587AB780B6D906940E1E87C271023A670EECAFBA916E3D0CAA92D83AC4642B5F
+        B88FBD1AB3478387CC1D548EE6413B9C03D5900C4A07170ECEC6A3A52E18878A
+        2150F3D6293521DCF690129B483ABE818898DC6570B092D68019FAD1229C1B96
+        A395DD829D85F5CE22F04B791116A6777CCA7B1A489A321121698704ED7E337A
+        5F58D13B6F85C56B425A4B2A040A5E885211F4AE9F893A4F8A2803A1A76A0846
+        A0E585052A5E98ADC8B0D153A584E8AFBFF15FF30B67D0ACE579BAD463000000
+        0049454E44AE426082
+      }
+      Visible = False
+    end
+    object ProgressBar1: TProgressBar
+      Left = 28
+      Height = 16
+      Top = 60
+      Width = 313
+      Anchors = [akTop, akLeft, akRight]
+      Max = 50
+      Smooth = True
+      TabOrder = 0
+    end
+    object ProgressBar2: TProgressBar
+      Left = 28
+      Height = 16
+      Top = 128
+      Width = 313
+      Anchors = [akTop, akLeft, akRight]
+      Max = 50
+      Smooth = True
+      TabOrder = 1
+    end
+  end
+  object pProgramm: TPanel
+    Left = 4
+    Height = 247
+    Top = 93
+    Width = 342
+    Anchors = [akLeft, akRight, akBottom]
+    BevelOuter = bvNone
+    ClientHeight = 247
+    ClientWidth = 342
+    TabOrder = 4
+    object lProgramFile: TLabel
+      Left = 20
+      Height = 13
+      Top = 24
+      Width = 88
+      Caption = 'Programmdatei'
+      ParentColor = False
+    end
+    object Label1: TLabel
+      Left = 20
+      Height = 13
+      Top = 92
+      Width = 80
+      Caption = 'EEPRom Datei'
+      ParentColor = False
+    end
+    object sbFuses: TSpeedButton
+      Left = 303
+      Height = 22
+      Top = 148
+      Width = 31
+      Anchors = [akTop, akRight]
+      Caption = '...'
+      Enabled = False
+      OnClick = sbFusesClick
+    end
+    object sbLockBits: TSpeedButton
+      Left = 303
+      Height = 22
+      Top = 218
+      Width = 31
+      Anchors = [akTop, akRight]
+      Caption = '...'
+      Enabled = False
+      OnClick = sbLockBitsClick
+    end
+    object lFuseBits: TLabel
+      Left = 28
+      Height = 1
+      Top = 170
+      Width = 1
+      ParentColor = False
+    end
+    object lLockBits: TLabel
+      Left = 28
+      Height = 1
+      Top = 240
+      Width = 1
+      ParentColor = False
+    end
+    object cbProgramFlash: TCheckBox
+      Left = 4
+      Height = 24
+      Top = 4
+      Width = 148
+      Caption = 'Flash programmieren'
+      Checked = True
+      OnChange = cbProgramFlashChange
+      State = cbChecked
+      TabOrder = 0
+    end
+    object feFlashFile: TFileNameEdit
+      Left = 20
+      Height = 23
+      Top = 42
+      Width = 296
+      OnAcceptFileName = feFlashFileAcceptFileName
+      DialogOptions = []
+      Filter = 'Intel Hex File (*.hex,*.a90)|*.hex;*.a90'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      Anchors = [akTop, akLeft, akRight]
+      MaxLength = 0
+      TabOrder = 1
+    end
+    object cbProgramEEPROM: TCheckBox
+      Left = 4
+      Height = 24
+      Top = 72
+      Width = 166
+      Caption = 'EEPROM Programmieren'
+      OnChange = cbProgramEEPROMChange
+      TabOrder = 2
+    end
+    object feEEPROMFile: TFileNameEdit
+      Left = 20
+      Height = 23
+      Top = 110
+      Width = 296
+      OnAcceptFileName = feEEPROMFileAcceptFileName
+      DialogOptions = []
+      Filter = 'Intel Hex File (*.hex,*.a90)|*.hex,*.a90'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      Anchors = [akTop, akLeft, akRight]
+      Enabled = False
+      MaxLength = 0
+      TabOrder = 3
+    end
+    object cbProgramFuses: TCheckBox
+      Left = 4
+      Height = 24
+      Top = 148
+      Width = 150
+      Caption = 'Fuses programmieren'
+      Checked = True
+      Enabled = False
+      OnChange = cbProgramFusesChange
+      State = cbChecked
+      TabOrder = 4
+    end
+    object cbProgramLockBits: TCheckBox
+      Left = 4
+      Height = 24
+      Top = 218
+      Width = 169
+      Caption = 'Lock Bits programmieren'
+      Enabled = False
+      OnChange = cbProgramLockBitsChange
+      TabOrder = 5
+    end
+  end
+  object cbType: TComboBox
+    Left = 112
+    Height = 27
+    Top = 56
+    Width = 227
+    Anchors = [akLeft, akRight, akBottom]
+    ItemHeight = 0
+    OnSelect = cbTypeSelect
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object bProgramm: TButton
+    Left = 195
+    Height = 35
+    Top = 346
+    Width = 144
+    Action = acProgramm
+    Anchors = [akRight, akBottom]
+    TabOrder = 1
+  end
+  object lbStatus: TListBox
+    Left = 64
+    Height = 38
+    Top = 6
+    Width = 275
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    ScrollWidth = 273
+    TabOrder = 2
+    TopIndex = -1
+  end
+  object xpsProperties: TXMLPropStorage
+    StoredValues = <    
+      item
+        Name = 'TYPE'
+      end    
+      item
+        Name = 'LEFT'
+      end    
+      item
+        Name = 'TOP'
+      end    
+      item
+        Name = 'WIDTH'
+      end    
+      item
+        Name = 'HEIGHT'
+      end    
+      item
+        Name = 'LANGUAGE'
+      end    
+      item
+        Name = 'HEXFILE'
+      end    
+      item
+        Name = 'EEPFILE'
+      end    
+      item
+        Name = 'DOWRITEFLASH'
+      end    
+      item
+        Name = 'DOWRITEEEP'
+      end    
+      item
+        Name = 'DOWRITEFUSES'
+      end    
+      item
+        Name = 'DOWRITELOCKBITS'
+      end    
+      item
+        Name = 'FUSES'
+      end    
+      item
+        Name = 'LOCKBITS'
+      end>
+    RootNodePath = 'config'
+    Active = False
+    left = 264
+    top = 240
+  end
+  object MainMenu1: TMainMenu
+    left = 264
+    top = 288
+    object miFile: TMenuItem
+      Caption = 'Package'
+      object miLoadPackage: TMenuItem
+        Action = acLoadPackage
+      end
+      object miSavePackage: TMenuItem
+        Action = acSavePackage
+      end
+    end
+    object miOptions: TMenuItem
+      Caption = 'Optionen'
+      object miLanguage: TMenuItem
+        Caption = 'Sprache'
+      end
+    end
+    object miInfo: TMenuItem
+      Caption = 'Info'
+      RightJustify = True
+      OnClick = miInfoClick
+    end
+  end
+  object ActionList1: TActionList
+    left = 208
+    top = 288
+    object acProgramm: TAction
+      Caption = 'Programmieren'
+      OnExecute = acProgrammExecute
+    end
+    object acLoadPackage: TAction
+      Caption = 'Package laden'
+    end
+    object acSavePackage: TAction
+      Caption = 'Package speichern'
+    end
+  end
+  object IdleTimer: TIdleTimer
+    OnTimer = IdleTimerTimer
+    left = 208
+    top = 240
+  end
+end

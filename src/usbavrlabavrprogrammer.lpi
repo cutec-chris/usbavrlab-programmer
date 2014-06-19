@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="usbavrlabavrprogrammer"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="..\languages"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="general"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="61">
+      <Unit0>
+        <Filename Value="usbavrlabavrprogrammer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value=""/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uprogrammer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fProgrammer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uProgrammer"/>
+        <TopLine Value="952"/>
+        <CursorPos X="3" Y="963"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="output\data\ATxmega64A1.xml"/>
+        <UnitName Value=""/>
+        <TopLine Value="1205"/>
+        <CursorPos Y="1245"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="8"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="output\data\AT90CAN32.xml"/>
+        <UnitName Value=""/>
+        <TopLine Value="49"/>
+        <CursorPos X="42" Y="22"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="13"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\propertystorage.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="556"/>
+        <CursorPos X="17" Y="576"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\controls.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="1124"/>
+        <CursorPos X="75" Y="1134"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\forms.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="659"/>
+        <CursorPos X="21" Y="684"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\Programme\lazarus\ideintf\idewindowintf.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="26"/>
+        <CursorPos X="49" Y="56"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="604"/>
+        <CursorPos X="3" Y="624"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\customlistview.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="379"/>
+        <CursorPos X="55" Y="403"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="982"/>
+        <CursorPos Y="1017"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\grids.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="98"/>
+        <CursorPos X="49" Y="118"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="output\data\ATmega32.xml"/>
+        <UnitName Value=""/>
+        <TopLine Value="148"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="720"/>
+        <CursorPos X="33" Y="736"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="104"/>
+        <CursorPos X="3" Y="120"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\customlistbox.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="545"/>
+        <CursorPos Y="565"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="165"/>
+        <CursorPos Y="185"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\xmlpropstorage.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="157"/>
+        <CursorPos X="9" Y="177"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\customform.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="1487"/>
+        <CursorPos Y="1627"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\Lokale Einstellungen\Anwendungsdaten\embeddedbuilder\programmer\config.xml"/>
+        <UnitName Value=""/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\themes.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="1892"/>
+        <CursorPos X="8" Y="1908"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\winapih.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="64"/>
+        <CursorPos X="10" Y="84"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="224"/>
+        <CursorPos X="19" Y="256"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\headercontrol.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="458"/>
+        <CursorPos Y="478"/>
+        <UsageCount Value="9"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\canvas.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="1446"/>
+        <CursorPos Y="1466"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\winapi.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="177"/>
+        <CursorPos Y="197"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\interfaces\win32\win32winapi.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="1177"/>
+        <CursorPos Y="1197"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\intfbasewinapi.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="241"/>
+        <CursorPos X="40" Y="256"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="output\data\ATmega64.xml"/>
+        <UnitName Value=""/>
+        <CursorPos X="58" Y="15"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="output\data\ATmega8.xml"/>
+        <UnitName Value=""/>
+        <CursorPos X="13" Y="3"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\..\Programme\lazarus\lcl\include\control.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="2500"/>
+        <CursorPos X="26" Y="2522"/>
+        <UsageCount Value="9"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="uchangebits.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fChangeBits"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uChangeBits"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="82"/>
+        <CursorPos X="29" Y="100"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="umain.pas"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value=""/>
+        <TopLine Value="58"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="23"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="output\uchangebits.lrs"/>
+        <UnitName Value=""/>
+        <UsageCount Value="9"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="output\data\ATmega88.xml"/>
+        <UnitName Value=""/>
+        <TopLine Value="594"/>
+        <CursorPos X="14" Y="604"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="551"/>
+        <CursorPos X="15" Y="581"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\AVRISP\software\usbboundarytool\source\usbavrboundary.lpi"/>
+        <UnitName Value=""/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\AVRISP\software\usbboundarytool\source\umain.pas"/>
+        <UnitName Value=""/>
+        <CursorPos X="19" Y="10"/>
+        <UsageCount Value="9"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\..\..\lazarus\lcl\lclproc.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="297"/>
+        <CursorPos X="10" Y="312"/>
+        <UsageCount Value="9"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\..\general\src\uinfo.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="51"/>
+        <CursorPos X="3" Y="66"/>
+        <UsageCount Value="9"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="uintfstrconsts.pas"/>
+        <UnitName Value="uIntfStrConsts"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="5"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="libusb_win.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="196"/>
+        <CursorPos X="4" Y="211"/>
+        <UsageCount Value="9"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="uusbasp.pas"/>
+        <ComponentName Value="fUSBAsp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value=""/>
+        <TopLine Value="48"/>
+        <CursorPos Y="48"/>
+        <UsageCount Value="26"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="141"/>
+        <CursorPos Y="156"/>
+        <UsageCount Value="9"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\..\..\Program Files\Atmel\AVR Tools\Partdescriptionfiles\ATmega8.xml"/>
+        <UnitName Value=""/>
+        <CursorPos X="6" Y="2"/>
+        <SyntaxHighlighter Value="XML"/>
+        <UsageCount Value="9"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\..\..\general\src\Utils.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="33"/>
+        <CursorPos X="17" Y="47"/>
+        <UsageCount Value="10"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\..\..\Dokumente und Einstellungen\Ulrich\Desktop\Neuer Ordner\unit1.pas"/>
+        <UnitName Value=""/>
+        <TopLine Value="18"/>
+        <CursorPos X="34" Y="64"/>
+        <UsageCount Value="9"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="changes.txt"/>
+        <UnitName Value=""/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="14" Y="2"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="output\tools\README"/>
+        <UnitName Value=""/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="9"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\..\..\..\Users\chris\Desktop\Stuff\flashisp.bat"/>
+        <UnitName Value=""/>
+        <CursorPos X="39"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="10"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\progressbar.inc"/>
+        <UnitName Value=""/>
+        <TopLine Value="102"/>
+        <CursorPos X="30" Y="120"/>
+        <UsageCount Value="9"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\..\..\..\Prometheus\TCS\avrprog\src\umain.pas"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value=""/>
+        <TopLine Value="592"/>
+        <CursorPos Y="199"/>
+        <UsageCount Value="11"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\..\..\..\Dokumente und Einstellungen\Ulrich\Lokale Einstellungen\Temp\dude.hex"/>
+        <UnitName Value=""/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="9"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="C:\Users\chris\Desktop\Stuff\flashisp.bat"/>
+        <UnitName Value=""/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="9"/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="11"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\languages\usbavrlabavrprogrammer.po"/>
+        <UnitName Value=""/>
+        <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="10"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="revision.inc"/>
+        <UnitName Value=""/>
+        <CursorPos X="2"/>
+        <UsageCount Value="10"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\..\..\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="21"/>
+        <CursorPos X="70" Y="36"/>
+        <UsageCount Value="11"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="ubootloader.pas"/>
+        <ComponentName Value="fBootloader"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value=""/>
+        <TopLine Value="131"/>
+        <CursorPos Y="142"/>
+        <UsageCount Value="11"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\..\..\..\home\chris\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value=""/>
+        <TopLine Value="608"/>
+        <CursorPos X="16" Y="619"/>
+        <UsageCount Value="10"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\..\..\..\media\Volume\general\src\uinfo.pas"/>
+        <ComponentName Value="fInfo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value=""/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="105"/>
+        <CursorPos X="40" Y="110"/>
+        <UsageCount Value="10"/>
+        <LoadedDesigner Value="True"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\..\..\..\media\Volume\general\src\ubenchmark.pas"/>
+        <UnitName Value=""/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="111"/>
+        <CursorPos X="25" Y="130"/>
+        <UsageCount Value="10"/>
+        <LoadedDesigner Value="True"/>
+      </Unit60>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="815" TopLine="800"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="816" TopLine="801"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="814" Column="34" TopLine="796"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="815" TopLine="800"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="816" TopLine="801"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="818" Column="27" TopLine="803"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="717" TopLine="702"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="718" TopLine="703"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="719" TopLine="704"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="720" TopLine="705"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="721" TopLine="706"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="723" TopLine="708"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="724" TopLine="709"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="725" TopLine="710"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="815" TopLine="800"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="816" TopLine="801"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="818" TopLine="803"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="819" TopLine="804"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="820" TopLine="805"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="821" Column="50" TopLine="800"/>
+      </Position20>
+      <Position21>
+        <Filename Value="usbavrlabavrprogrammer.lpr"/>
+        <Caret Line="14" Column="18"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uchangebits.pas"/>
+        <Caret Line="90" Column="27" TopLine="41"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uchangebits.pas"/>
+        <Caret Line="166" Column="20" TopLine="100"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uchangebits.pas"/>
+        <Caret Line="102" Column="32" TopLine="98"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="392" Column="16" TopLine="386"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="392" Column="16" TopLine="386"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="434" Column="10" TopLine="423"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="186" Column="114" TopLine="181"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uprogrammer.pas"/>
+        <Caret Line="166" Column="88" TopLine="31"/>
+      </Position29>
+      <Position30>
+        <Filename Value="usbavrlabavrprogrammer.lpr"/>
+        <Caret Line="22"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

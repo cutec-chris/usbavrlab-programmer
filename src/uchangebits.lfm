@@ -1,0 +1,81 @@
+object fChangeBits: TfChangeBits
+  Left = 384
+  Height = 450
+  Top = 182
+  Width = 452
+  ActiveControl = hcFuses
+  Caption = 'fChangeBits'
+  ClientHeight = 450
+  ClientWidth = 452
+  OnResize = FormResize
+  LCLVersion = '0.9.27'
+  object hcFuses: THeaderControl
+    Left = 12
+    Height = 23
+    Top = 10
+    Width = 428
+    DragReorder = False
+    Sections = <    
+      item
+        Alignment = taLeftJustify
+        Text = 'Fuse'
+        Width = 100
+        Visible = True
+      end    
+      item
+        Alignment = taLeftJustify
+        Text = 'Value'
+        Width = 300
+        Visible = True
+      end>
+    OnSectionResize = hcFusesSectionResize
+    Anchors = [akTop, akLeft, akRight]
+  end
+  object tvFuses: TTreeView
+    Left = 12
+    Height = 369
+    Top = 32
+    Width = 431
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    DefaultItemHeight = 19
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    RowSelect = True
+    ShowLines = False
+    TabOrder = 1
+    OnAdvancedCustomDrawItem = tvFusesAdvancedCustomDrawItem
+    OnSelectionChanged = tvFusesSelectionChanged
+    Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoRowSelect, tvoShowButtons, tvoShowRoot, tvoToolTips]
+  end
+  object bOK: TBitBtn
+    Left = 336
+    Height = 28
+    Top = 411
+    Width = 104
+    Anchors = [akRight, akBottom]
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object bAbort: TBitBtn
+    Left = 217
+    Height = 28
+    Top = 411
+    Width = 112
+    Anchors = [akRight, akBottom]
+    Caption = 'Abbrechen'
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object bRead: TBitBtn
+    Left = 12
+    Height = 28
+    Top = 411
+    Width = 80
+    Anchors = [akLeft, akBottom]
+    Caption = 'lesen'
+    OnClick = bReadClick
+    TabOrder = 4
+  end
+end

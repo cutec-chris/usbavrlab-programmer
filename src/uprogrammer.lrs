@@ -1,0 +1,200 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfProgrammer','FORMDATA',[
+  'TPF0'#12'TfProgrammer'#11'fProgrammer'#4'Left'#3'$'#1#6'Height'#3#152#1#3'To'
+  +'p'#3#156#0#5'Width'#3'['#1#13'ActiveControl'#7#8'lbStatus'#7'Caption'#6#27
+  +'USB AVR Lab Tool Programmer'#12'ClientHeight'#3#131#1#11'ClientWidth'#3'['#1
+  +#5'Color'#7#8'clWindow'#4'Menu'#7#9'MainMenu1'#12'OnCloseQuery'#7#14'FormClo'
+  +'seQuery'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#3'1.3'#0#6'TLabel'#5
+  +'lType'#4'Left'#2#12#6'Height'#2#13#3'Top'#2'F'#5'Width'#2'J'#7'Anchors'#11#6
+  +'akLeft'#8'akBottom'#0#7'Caption'#6#13'Controllertyp'#11'ParentColor'#8#0#0#6
+  +'TLabel'#7'lStatus'#4'Left'#2#12#6'Height'#2#13#3'Top'#2#31#5'Width'#2'5'#7
+  +'Anchors'#11#6'akLeft'#7'akRight'#8'akBottom'#0#7'Caption'#6#6'Status'#11'Pa'
+  +'rentColor'#8#0#0#6'TPanel'#9'pProgress'#4'Left'#2#0#6'Height'#3#248#0#3'Top'
+  +#2']'#5'Width'#3'['#1#7'Anchors'#11#6'akLeft'#7'akRight'#8'akBottom'#0#10'Be'
+  +'velOuter'#7#6'bvNone'#12'ClientHeight'#3#248#0#11'ClientWidth'#3'['#1#8'Tab'
+  +'Order'#2#3#7'Visible'#8#0#6'TImage'#6'Image1'#4'Left'#2#12#6'Height'#2#16#3
+  +'Top'#2#0#5'Width'#2#16#8'AutoSize'#9#0#0#6'TLabel'#6'lStep1'#4'Left'#2' '#6
+  +'Height'#2#26#3'Top'#2#0#5'Width'#3'5'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7
+  +'akRight'#0#8'AutoSize'#8#7'Caption'#6#22'Controller l'#195#182'schen...'#11
+  +'ParentColor'#8#8'WordWrap'#9#0#0#6'TImage'#6'Image2'#4'Left'#2#12#6'Height'
+  +#2#16#3'Top'#2#28#5'Width'#2#16#8'AutoSize'#9#0#0#6'TLabel'#6'lStep2'#4'Left'
+  +#2' '#6'Height'#2#28#3'Top'#2#28#5'Width'#3'5'#1#7'Anchors'#11#5'akTop'#6'ak'
+  +'Left'#7'akRight'#0#8'AutoSize'#8#7'Caption'#6#23'Flash programmieren ...'#11
+  +'ParentColor'#8#8'WordWrap'#9#0#0#6'TImage'#6'Image3'#4'Left'#2#12#6'Height'
+  +#2#16#3'Top'#2'`'#5'Width'#2#16#8'AutoSize'#9#0#0#6'TLabel'#6'lStep3'#4'Left'
+  +#2' '#6'Height'#2' '#3'Top'#2'`'#5'Width'#3'5'#1#7'Anchors'#11#5'akTop'#6'ak'
+  +'Left'#7'akRight'#0#8'AutoSize'#8#7'Caption'#6#24'EEPROM programmieren ...'
+  +#11'ParentColor'#8#8'WordWrap'#9#0#0#6'TImage'#6'Image4'#4'Left'#2#12#6'Heig'
+  +'ht'#2#16#3'Top'#3#160#0#5'Width'#2#16#8'AutoSize'#9#0#0#6'TLabel'#6'lStep4'
+  +#4'Left'#2' '#6'Height'#2'"'#3'Top'#3#160#0#5'Width'#3'5'#1#7'Anchors'#11#5
+  +'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#8#7'Caption'#6#27'Fuse Bits progr'
+  +'ammieren ...'#11'ParentColor'#8#8'WordWrap'#9#0#0#6'TImage'#6'Image5'#4'Lef'
+  +'t'#2#12#6'Height'#2#16#3'Top'#3#200#0#5'Width'#2#16#8'AutoSize'#9#0#0#6'TLa'
+  +'bel'#6'lStep5'#4'Left'#2' '#6'Height'#2'"'#3'Top'#3#200#0#5'Width'#3'5'#1#7
+  +'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#8#7'Caption'#6#26'L'
+  +'ockBits programmieren ...'#11'ParentColor'#8#8'WordWrap'#9#0#0#6'TImage'#10
+  +'iHourglass'#4'Left'#3#204#0#6'Height'#2#16#3'Top'#2'('#5'Width'#2#16#8'Auto'
+  +'Size'#9#12'Picture.Data'#10#4#3#0#0#23'TPortableNetworkGraphic'#232#2#0#0
+  +#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#0#16#0#0#0#16#8#6#0#0#0#31#243#255
+  +'a'#0#0#0#4'gAMA'#0#0#175#200'7'#5#138#233#0#0#0#25'tEXtSoftware'#0'Adobe Im'
+  +'ageReadyq'#201'e<'#0#0#2'zIDAT8'#203#141#147#187'OSa'#24#198';28'#186#184
+  +#152#24#183#198#196#149'8'#232#127#160#131#131#139#12'J'#162'1&'#196'F'#7#145
+  +'xO'#4#18'"'#13'P(-'#10'Zi'#25#16'K'#10#180'G'#18#196'^h'#133'^i)('#156'^'
+  +#165#247'j'#161#167#247#158#243#248#245#4#26#138'b'#24#158'|'#223#240'>'#191
+  +'|'#231#188#249#9#0#8#214'GEM$m$'#26#18#154#132'!a]'#195'w`'#17'_'#199#194
+  +#171#203#172#166#227#18'3q'#239'<'#253#246#214#25#141#164#229'd['#239#181#19
+  +'M'#181#174'`'#15'`'#12'h;'#17'Y'#146' '#225'x'#131#148#251#29#146#174'1'#196
+  +#150#229#216#214#15'"'#244#185#23#244't''<'#138'v'#24#197'70'#245#240'"'#8
+  +#192'X'#7'x'#21#143'\'#251#128#184'MN2'#130#168'y'#24'?'#191'J'#16#208#189#6
+  +#173#238#198#186#234'9'#28#242#251#208#247#180#240#0'q'#203')W'#29'`Z'#13#10
+  +'m'#166'ElieXS>'#198#178#164#21#11#157'W@'#158#13#242'l'#140#222'>'#11'i'#235
+  +'i'#200#238#158#131#234#229'U'#200#6#186'00'#174#21#214#1#181',l'#150'u'#182
+  +'p'#9#169'l'#5#133'2'#135'b'#133'C:W'#197'Z'#164#0'k0'#15#127#170#4':Y'#194
+  +#140'='#137#129'9'#191'n'#191'W'#7#212'By'#243#159'(o'#142#11#144'a'#166#200
+  +'"'#146#169'`=Z'#132#143#20'M?v1D'#133#184#254'Y'#255#212#193'N'#3#160#22#181
+  +'c'#167'y'#218#145#161#191#209'Y'#132'~'#149#249#242#156'3'#141'A*'#184#217
+  +'7'#235'k><'#255#23'`?'#202#165#132#193#30'd`'#245'g!'#209#5#245'G'#205#29#9
+  +#152'X'#138#155#157'a'#6'6'#2#232#155#241#25#142#13'P'#154#226#23#212'+'#137
+  +#224'j('#139'4SEt'#167#130'Yk'#28']'#147#27'[/T'#158#255#127#130#194#16'SOZ'
+  +#226#156'/Q'#224'7Q'#170'r'#216'-'#176#8#165#203#208':'#147'x'#242#222#197
+  +#181#143':'#254#253#19#199#244'Qj'#222#157#198'v'#166#140'\'#137'E'#153#148
+  +#171','#7#134#220#29#225'<'#220#219#5#184#200')'#163'h'#136#164#203#141'kT'
+  +#205#187#133#227#134#8#22#189#191#145#216#173#240'e'#210#229#1#153'|'#21#223
+  +'cE'#190'l'#15#229#241#209#18'A'#199#152#29#162'n'#149#176#193#5#15'%'#133
+  +#209'l'#130'y#'#133'p2'#143#157#28'Ya4'#11#229#23'?'#158'}p'#226#129'l'#5#162
+  +'!'#11'z'#250#21#24'yz'#179#209#133#131'2'#29#215#133#195#128#186#206'Da'#154
+  +'('#204#236')'#204#187'@'#20'f'#137#194#12')'#209'$'#26#146#186#206#127#0#16
+  ,#250#5#174'B'#145#4#188#0#0#0#0'IEND'#174'B`'#130#7'Visible'#8#0#0#6'TImage'
+  +#7'iFailed'#4'Left'#3#228#0#6'Height'#2#16#3'Top'#2'('#5'Width'#2#16#8'AutoS'
+  +'ize'#9#12'Picture.Data'#10#231#2#0#0#23'TPortableNetworkGraphic'#203#2#0#0
+  +#137'PNG'#13#10#26#10#0#0#0#13'IHDR'#0#0#0#16#0#0#0#16#8#6#0#0#0#31#243#255
+  +'a'#0#0#0#4'gAMA'#0#0#175#200'7'#5#138#233#0#0#0#25'tEXtSoftware'#0'Adobe Im'
+  +'ageReadyq'#201'e<'#0#0#2']IDAT8'#203#165#147#251'KSa'#24#199#253'['#182#31
+  +#162#4#137'n'#132#132'QP'#152#243'2w'#214#218#220#166#206#179'L'#143'[,bi'
+  +#142#157'a'#154'A'#141#197'\'#248'C'#168#165'v'#213#202'_2Ml'#148'ZFj'#215
+  +#161#229#177#242#210'NMjm'#158#179'k'#202#183#185'`&.#z'#225#251#203#203#251
+  +#249#188'<'#15#207#147#2' '#229#127#178#230'bV'#175#23#206'P'#21#230#247'T'
+  +#25'3'#165'%'#185'I'#173#134'{G'#170#153'qRiv'#149#200#133#235#10#230'tz'#226
+  +'#E'#177#223#28'6'#132#7#157#136#188#25'Edd'#8#252#221#14#204#26'J'#241#170
+  +#144'`'#159#171#197'DR'#193'2<]N'#241#11#183';'#176'4'#245#22#209#190';'#136
+  +#182#219#17'm>'#135#31'7'#155#176'8'#220#7#143#201#128'Qe6'#255'L'#158'I'#172
+  +#18#204#232't'#130#24#236#230#174#183'c'#137'q!z'#241#12'|v'#11#252#182'j'
+  +#132'/X'#16'i'#160#17#182#158'@'#248#222#13#204#29'%1|h'#159#251#177'l'#143
+  +' !'#136#193#244'|'#173#25#139#174#177#248#143'!'#7#13#239'Y#'#130'u'#186'U'
+  +#225'N'#146#8'w]'#193#203#188#12#12'H3'#232#132#224#3'u'#132#9't]E'#180#179
+  +#25'>k%'#190#22'I'#147'f'#161#146#4'o'#171#129#199'R'#133#135'D:'#147#16'0'
+  +#229#218'`'#228'~'#23#162#14#11'|'#167#13#248#211#241'(r'#224#165#10#225'on'
+  +#132'3oG0!'#152'$'#139#130#161#206'V'#132#235#13#8#158'*[W0_'#170#130#191#169
+  +#17#253#226'-+'#130#137#18#21#227#181#214' d'#167#193#29'W'#199#31'&'#141'2'
+  +#15#190'Z'#19'fMF'#244#137#210'VJp'#21#203'iF&B'#176#179#13'>'#173#12#222'R'
+  +#201#26#152#149'g'#131'-'#144' '#208'~'#9'C'#226'm'#232#205#218#180#210#196
+  +#215'ER'#193#11#13#225#158#171#208' p'#171'5'#222#176'y'#149#248#23#168#200#5
+  +'+'#139#193'21'#248#182#22#140#23'K'#151'aw'#183'h'#163'`'#213' '#141#21#228
+  +#16'#'#138#3#252#244'a'#21#2#215'Z'#241#189#158#134#135'T'#226#179'Z'#1'o'
+  +#157#25#252#229#22'L'#168#243#209#147#149#202#199'`"'#233'(?'#149#239''''#158
+  +#28#220#203#142'Jv'#225'K'#181#17#222#134#243#241'|'#170':'#134'G9['#151'a'
+  +#246'w8'#233'2'#13'Jw'#11#7#196#233'f'''#177#147'y'#144#191#157#235#23'm'#230
+  +'zs'#211#152#158#236'Tsw'#230#6#225'_'#183#241'_'#243#19#29#210#206#185'Ir'
+  +#27#254#0#0#0#0'IEND'#174'B`'#130#7'Visible'#8#0#0#6'TImage'#3'iOK'#4'Left'#3
+  +#252#0#6'Height'#2#16#3'Top'#2'('#5'Width'#2#16#8'AutoSize'#9#12'Picture.Dat'
+  +'a'#10')'#3#0#0#23'TPortableNetworkGraphic'#13#3#0#0#137'PNG'#13#10#26#10#0#0
+  +#0#13'IHDR'#0#0#0#16#0#0#0#16#8#6#0#0#0#31#243#255'a'#0#0#0#4'gAMA'#0#0#175
+  +#200'7'#5#138#233#0#0#0#25'tEXtSoftware'#0'Adobe ImageReadyq'#201'e<'#0#0#2
+  +#159'IDAT8'#203#165#147#235'KSa'#28#199#253';v'#206'vl'#3#9'dD!'#130#132'P{'
+  +#21'$'#18';'#154#13#197#188',K'#211#221#189#210'6c'#216'L'#139'2r^'#198'H)-'
+  +#179#212'jsNm'#234#212#230#214#148'2q'#217'QB'#204#189#233'B'#181'at'#177'o'
+  +#231#236#197'L'#18'#z'#224#11#15#15#207#231#243'{'#174'q'#0#226#254''''#127
+  +#12#20#248#14#137'r'#167#15#234#179'=)L'#198#227#253'a'#233#136'8,u%2Rg'#162
+  +'>'#221#190'W'#180#171' '#207#155'J'#203'<'#201'!'#157'G'#134#155'A'#11#250
+  +#150#187#162#233'\lF'#137#235#24'$'#189'TH'#210'C'#209';'#10#216#170't'#230
+  +'xR'#228#234#156#17#206#213'~'#216'^^'#131'i'#174'2'#26#174#239'X'#237'C'#227
+  +'L'#21#14#216#248#145'd'#27#159#222'&'#200#241#164#8'3'#221'I'#235#28#204'M'
+  +#172#9#148#161#194'_'#2#205#204#25#232#216#148#179#169#246#157#133#253#245'='
+  +'\'#156#170#128#216'B'#174#139#175#147#194#152'@'#230'N2'#168#198#178#162#149
+  +'9'#152#3'U'#222'SPL'#23'B1U'#0#245'T!'#220'k'#131'0x'#149'p'#176#146#220#158
+  +'#H'#184'B'#26'b'#130#140#17'1'#211#25'l'#134'5'#216#132#10'_1'#148'O'#228','
+  +#152#15#229'$'#27'O>'#198#223#184#192#181'Pd'#13'm'#207#27'a'#155'kD|='#201
+  +#196#4'G'#237#9#27#15'Vn'#163'6'#160#129#214'['#196#174'd'#0#139#31#230#161
+  +#154'('#196#216#218'P'#20#254#177#249#29'm'#207'.'#193'0Q'#140#190'`'''#4'Fb'
+  +'#&'#144#220#167'6'#250#151#187'a'#244#171'P'#235#215#226#211#215#143'Q'#232
+  +#253#151#183'1'#216'2['#15#181'+'#27'z'#247'i'#244#7'; '#168#249']'#208'C17'
+  +#230#155#208#190'p'#25#186'I9'#204#190'jD'#190'}'#142#194#155'?7ayz'#1'e'#206
+  +',hXAK'#160#14#237'^3'#168'*bk'#11#169#183#4#6#249'@'#26#236'+wQ=!'#135#218
+  +'}'#18'u'#211#229'Xz'#183#128#182#217#6#148#14#30#135#194'q'#2':g'#14#236#175
+  +#186#145'n='#12#170#146#216':'#196'd+_'#184#143#189#26#179'G'#131#135#204#29
+  +'T'#142#230'A;'#156#3#213#144#12'J'#7#23#14#206#198#163#165'.'#24#135#138'!P'
+  +#243#214')5!'#220#246#144#18#155'H:'#190#129#136#152#220'ep'#176#146#214#128
+  +#25#250#209'"'#156#27#150#163#149#221#130#157#133#245#206'"'#240'Ky'#17#22
+  +#166'w|'#202'{'#26'H'#154'2'#17'!i'#135#4#237'~3z_X'#209';o'#133#197'kBZK*'#4
+  +#10'^'#136'R'#17#244#174#159#137':O'#138'('#3#161#167'j'#8'F'#160#229#133#5
+  +'*^'#152#173#200#176#209'S'#165#132#232#175#191#241'_'#243#11'g'#208#172#229
+  ,'y'#186#212'c'#0#0#0#0'IEND'#174'B`'#130#7'Visible'#8#0#0#12'TProgressBar'#12
+  +'ProgressBar1'#4'Left'#2#28#6'Height'#2#16#3'Top'#2'<'#5'Width'#3'9'#1#7'Anc'
+  +'hors'#11#5'akTop'#6'akLeft'#7'akRight'#0#3'Max'#2'2'#6'Smooth'#9#8'TabOrder'
+  +#2#0#0#0#12'TProgressBar'#12'ProgressBar2'#4'Left'#2#28#6'Height'#2#16#3'Top'
+  +#3#128#0#5'Width'#3'9'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#3'Max'
+  +#2'2'#6'Smooth'#9#8'TabOrder'#2#1#0#0#0#6'TPanel'#9'pProgramm'#4'Left'#2#4#6
+  +'Height'#3#247#0#3'Top'#2']'#5'Width'#3'V'#1#7'Anchors'#11#6'akLeft'#7'akRig'
+  +'ht'#8'akBottom'#0#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#247#0#11'Cl'
+  +'ientWidth'#3'V'#1#8'TabOrder'#2#4#0#6'TLabel'#12'lProgramFile'#4'Left'#2#20
+  +#6'Height'#2#13#3'Top'#2#24#5'Width'#2'X'#7'Caption'#6#13'Programmdatei'#11
+  +'ParentColor'#8#0#0#6'TLabel'#6'Label1'#4'Left'#2#20#6'Height'#2#13#3'Top'#2
+  +'\'#5'Width'#2'P'#7'Caption'#6#12'EEPRom Datei'#11'ParentColor'#8#0#0#12'TSp'
+  +'eedButton'#7'sbFuses'#4'Left'#3'/'#1#6'Height'#2#22#3'Top'#3#148#0#5'Width'
+  +#2#31#7'Anchors'#11#5'akTop'#7'akRight'#0#7'Caption'#6#3'...'#7'Enabled'#8#7
+  +'OnClick'#7#12'sbFusesClick'#0#0#12'TSpeedButton'#10'sbLockBits'#4'Left'#3'/'
+  +#1#6'Height'#2#22#3'Top'#3#218#0#5'Width'#2#31#7'Anchors'#11#5'akTop'#7'akRi'
+  +'ght'#0#7'Caption'#6#3'...'#7'Enabled'#8#7'OnClick'#7#15'sbLockBitsClick'#0#0
+  +#6'TLabel'#9'lFuseBits'#4'Left'#2#28#6'Height'#2#1#3'Top'#3#170#0#5'Width'#2
+  +#1#11'ParentColor'#8#0#0#6'TLabel'#9'lLockBits'#4'Left'#2#28#6'Height'#2#1#3
+  +'Top'#3#240#0#5'Width'#2#1#11'ParentColor'#8#0#0#9'TCheckBox'#14'cbProgramFl'
+  +'ash'#4'Left'#2#4#6'Height'#2#24#3'Top'#2#4#5'Width'#3#148#0#7'Caption'#6#19
+  +'Flash programmieren'#7'Checked'#9#8'OnChange'#7#20'cbProgramFlashChange'#5
+  +'State'#7#9'cbChecked'#8'TabOrder'#2#0#0#0#13'TFileNameEdit'#11'feFlashFile'
+  +#4'Left'#2#20#6'Height'#2#23#3'Top'#2'*'#5'Width'#3'('#1#16'OnAcceptFileName'
+  +#7#25'feFlashFileAcceptFileName'#13'DialogOptions'#11#0#6'Filter'#6'(Intel H'
+  +'ex File (*.hex,*.a90)|*.hex;*.a90'#11'FilterIndex'#2#0#15'HideDirectories'#8
+  +#11'ButtonWidth'#2#23#9'NumGlyphs'#2#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'ak'
+  +'Right'#0#9'MaxLength'#2#0#8'TabOrder'#2#1#0#0#9'TCheckBox'#15'cbProgramEEPR'
+  +'OM'#4'Left'#2#4#6'Height'#2#24#3'Top'#2'H'#5'Width'#3#166#0#7'Caption'#6#20
+  +'EEPROM Programmieren'#8'OnChange'#7#21'cbProgramEEPROMChange'#8'TabOrder'#2
+  +#2#0#0#13'TFileNameEdit'#12'feEEPROMFile'#4'Left'#2#20#6'Height'#2#23#3'Top'
+  +#2'n'#5'Width'#3'('#1#16'OnAcceptFileName'#7#26'feEEPROMFileAcceptFileName'
+  +#13'DialogOptions'#11#0#6'Filter'#6'(Intel Hex File (*.hex,*.a90)|*.hex,*.a9'
+  +'0'#11'FilterIndex'#2#0#15'HideDirectories'#8#11'ButtonWidth'#2#23#9'NumGlyp'
+  +'hs'#2#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#7'Enabled'#8#9'MaxLen'
+  +'gth'#2#0#8'TabOrder'#2#3#0#0#9'TCheckBox'#14'cbProgramFuses'#4'Left'#2#4#6
+  +'Height'#2#24#3'Top'#3#148#0#5'Width'#3#150#0#7'Caption'#6#19'Fuses programm'
+  +'ieren'#7'Checked'#9#7'Enabled'#8#8'OnChange'#7#20'cbProgramFusesChange'#5'S'
+  +'tate'#7#9'cbChecked'#8'TabOrder'#2#4#0#0#9'TCheckBox'#17'cbProgramLockBits'
+  +#4'Left'#2#4#6'Height'#2#24#3'Top'#3#218#0#5'Width'#3#169#0#7'Caption'#6#23
+  +'Lock Bits programmieren'#7'Enabled'#8#8'OnChange'#7#23'cbProgramLockBitsCha'
+  +'nge'#8'TabOrder'#2#5#0#0#0#9'TComboBox'#6'cbType'#4'Left'#2'p'#6'Height'#2
+  +#27#3'Top'#2'8'#5'Width'#3#227#0#7'Anchors'#11#6'akLeft'#7'akRight'#8'akBott'
+  +'om'#0#10'ItemHeight'#2#0#8'OnSelect'#7#12'cbTypeSelect'#5'Style'#7#14'csDro'
+  +'pDownList'#8'TabOrder'#2#0#0#0#7'TButton'#9'bProgramm'#4'Left'#3#195#0#6'He'
+  +'ight'#2'#'#3'Top'#3'Z'#1#5'Width'#3#144#0#6'Action'#7#10'acProgramm'#7'Anch'
+  +'ors'#11#7'akRight'#8'akBottom'#0#8'TabOrder'#2#1#0#0#8'TListBox'#8'lbStatus'
+  +#4'Left'#2'@'#6'Height'#2'&'#3'Top'#2#6#5'Width'#3#19#1#7'Anchors'#11#5'akTo'
+  +'p'#6'akLeft'#7'akRight'#8'akBottom'#0#10'ItemHeight'#2#0#11'ScrollWidth'#3
+  +#17#1#8'TabOrder'#2#2#8'TopIndex'#2#255#0#0#15'TXMLPropStorage'#13'xpsProper'
+  +'ties'#12'StoredValues'#14#1#4'Name'#6#4'TYPE'#0#1#4'Name'#6#4'LEFT'#0#1#4'N'
+  +'ame'#6#3'TOP'#0#1#4'Name'#6#5'WIDTH'#0#1#4'Name'#6#6'HEIGHT'#0#1#4'Name'#6#8
+  +'LANGUAGE'#0#1#4'Name'#6#7'HEXFILE'#0#1#4'Name'#6#7'EEPFILE'#0#1#4'Name'#6#12
+  +'DOWRITEFLASH'#0#1#4'Name'#6#10'DOWRITEEEP'#0#1#4'Name'#6#12'DOWRITEFUSES'#0
+  +#1#4'Name'#6#15'DOWRITELOCKBITS'#0#1#4'Name'#6#5'FUSES'#0#1#4'Name'#6#8'LOCK'
+  +'BITS'#0#0#12'RootNodePath'#6#6'config'#6'Active'#8#4'left'#3#8#1#3'top'#3
+  +#240#0#0#0#9'TMainMenu'#9'MainMenu1'#4'left'#3#8#1#3'top'#3' '#1#0#9'TMenuIt'
+  +'em'#6'miFile'#7'Caption'#6#7'Package'#0#9'TMenuItem'#13'miLoadPackage'#6'Ac'
+  +'tion'#7#13'acLoadPackage'#0#0#9'TMenuItem'#13'miSavePackage'#6'Action'#7#13
+  +'acSavePackage'#0#0#0#9'TMenuItem'#9'miOptions'#7'Caption'#6#8'Optionen'#0#9
+  +'TMenuItem'#10'miLanguage'#7'Caption'#6#7'Sprache'#0#0#0#9'TMenuItem'#6'miIn'
+  +'fo'#7'Caption'#6#4'Info'#12'RightJustify'#9#7'OnClick'#7#11'miInfoClick'#0#0
+  +#0#11'TActionList'#11'ActionList1'#4'left'#3#208#0#3'top'#3' '#1#0#7'TAction'
+  +#10'acProgramm'#7'Caption'#6#13'Programmieren'#9'OnExecute'#7#17'acProgrammE'
+  ,'xecute'#0#0#7'TAction'#13'acLoadPackage'#7'Caption'#6#13'Package laden'#0#0
+  +#7'TAction'#13'acSavePackage'#7'Caption'#6#17'Package speichern'#0#0#0#10'TI'
+  +'dleTimer'#9'IdleTimer'#7'OnTimer'#7#14'IdleTimerTimer'#4'left'#3#208#0#3'to'
+  +'p'#3#240#0#0#0#0
+]);
